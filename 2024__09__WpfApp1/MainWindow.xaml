@@ -8,9 +8,13 @@
         Title="我的第一個視窗" Height="450" Width="800"
         Background="#FFEEEACB">
     <Grid>
-        <Button Content="請按我" HorizontalAlignment="Left"
-     Margin="50,60,0,0" VerticalAlignment="Top" Height="65" Width="175"
-             FontSize="24" Click="MyButton_Click"
-                Background="#FFA0C58E"/>
+        <TextBox x:Name="MyTextBox" HorizontalAlignment="Left" Margin="150,56,0,0"
+                 VerticalAlignment="Top" Width="200" Height="35"/>
+        <Button x:Name="MyButton" Content="送出" HorizontalAlignment="Left" Margin="414,54,0,0"
+                VerticalAlignment="Top" Width="200" Height="40"
+                FontSize="16" Click="MyButton_Click"/>
+        <TextBlock x:Name="ResultTextBlock" HorizontalAlignment="Left" Margin="94,115,0,0"
+                   VerticalAlignment="Top" Width="600" Height="300"
+                   TextWrapping="Wrap" FontSize="16" Background="White"/>
     </Grid>
 </Window>
