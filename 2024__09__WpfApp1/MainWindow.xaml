@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2024__09__WpfApp1"
         mc:Ignorable="d"
-        Title="我的第一個視窗" Height="450" Width="800">
+        Title="我的第一個視窗" Height="450" Width="800"
+        Background="#FFEEEACB">
     <Grid>
-
+        <Button Content="請按我" HorizontalAlignment="Left"
+     Margin="50,60,0,0" VerticalAlignment="Top" Height="65" Width="175"
+             FontSize="24" Click="MyButton_Click"
+                Background="#FFA0C58E"/>
     </Grid>
 </Window>

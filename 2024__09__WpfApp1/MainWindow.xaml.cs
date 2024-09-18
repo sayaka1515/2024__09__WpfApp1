@@ -20,5 +20,11 @@ namespace _2024__09__WpfApp1
         {
             InitializeComponent();
         }
+
+
+        private void MyButton_Click(object sender,RoutedEventArgs e)
+        { 
+            MessageBox.Show("Hello World");
+        }
     }
 }
